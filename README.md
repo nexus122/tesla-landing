@@ -2,7 +2,7 @@
 Este proyecto lo he hecho siguiendo el video de [@midulive](https://www.youtube.com/@midulive): 
 https://www.youtube.com/watch?v=S_oLr_np4S8&t=2749s&ab_channel=midulive
 
-Con el objetivo de aprender cómo funciona [Astro] (https://astro.build), un framework muy sencillo, pero muy potente para hacer páginas estáticas
+Con el objetivo de aprender cómo funciona [Astro](https://astro.build), un framework muy sencillo, pero muy potente para hacer páginas estáticas
 
 ## Screenshot
 ![Model Y Page Section](https://img001.prntscr.com/file/img001/MBJ6f7_uRreVOk6WO7cn7w.png)
@@ -23,6 +23,7 @@ Con el objetivo de aprender cómo funciona [Astro] (https://astro.build), un fra
 -------
 - [x] Menu compacto con un hover de transición
 - [x] Menu con cambio de color segun la sección
+- [ ] Falta Hacer el responsive
 
 ## ¿Que he aprendido?
 - Cosas básicas de Astro
