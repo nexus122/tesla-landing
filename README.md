@@ -23,6 +23,7 @@ Con el objetivo de aprender cómo funciona [Astro](https://astro.build), un fram
 -------
 - [x] Menu compacto con un hover de transición
 - [x] Menu con cambio de color segun la sección
+- [ ] Falta Hacer el responsive
 
 ## ¿Que he aprendido?
 - Cosas básicas de Astro
