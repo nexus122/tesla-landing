@@ -1,0 +1,10 @@
+---
+const {url, alt} = Astro.props;
+---
+<div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <img
+      class="object-center object-cover h-full w-full"
+      alt={alt}
+      src={url}
+    />
+  </div>

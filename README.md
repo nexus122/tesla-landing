@@ -1,55 +1,42 @@
-# Astro Starter Kit: Basics
+# Clon de la web de tesla
+Este proyecto lo he hecho siguiendo el video de [@midulive](https://www.youtube.com/@midulive): 
+https://www.youtube.com/watch?v=S_oLr_np4S8&t=2749s&ab_channel=midulive
 
-```
-npm create astro@latest -- --template basics
-```
+Con el objetivo de aprender cómo funciona [Astro] (https://astro.build), un framework muy sencillo, pero muy potente para hacer páginas estáticas
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Screenshot
+![Model Y Page Section](https://img001.prntscr.com/file/img001/MBJ6f7_uRreVOk6WO7cn7w.png)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Tecnologias
+- Astro
+    - Html
+    - Css
+    - Js
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+## Objetivos
+### Secciones
+- [x] Video como fondo
+- [x] Imágen como fondo
+- [x] Distintas Slides con Scroll forzado ( que al bajar un poquito te lleve a la siguiente)
+- [x] Dividir en componentes reutilizables la app
+### Menu
+-------
+- [x] Menu compacto con un hover de transición
+- [x] Menu con cambio de color segun la sección
 
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## ¿Que he aprendido?
+- Cosas básicas de Astro
+    - Crear componentes
+    - Utilizar props y pasárselas a los componentes hijo
+    - Modificar el Layout para cargar CSS
+    - Instalación de paquetes npm en astro ( super simple ya que se autoconfigura )
+- Taiwind
+    - Utilizar variables dentro de tailwind: border-[3px]
+    - Escribir CSS que desde el padre modifique a los hijos
+    - variable css current-color
+- CSS
+    - Páginas con smoth scroll y efecto carrousel supersencillas.
+- JS
+    - Uso de Observables desde js para cambiar el color del menú
+    - Forma sencilla de hacer un hover que sigue al raton en js y css
+    - Alterar variables de css desde JS
