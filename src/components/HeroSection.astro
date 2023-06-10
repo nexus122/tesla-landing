@@ -1,6 +1,6 @@
 ---
 import Section from "./global/Section.astro";
-import VideoBackground from "./VideoBackground.astro";
+import VideoBackground from "./global/VideoBackground.astro";
 
 ---
 
@@ -18,10 +18,8 @@ color="white"
 </a>
 </div>
 
-<div slot="background">
-  <VideoBackground
+  <VideoBackground slot="background"
     url="./video.webm"
   />
-</div>
 
 </Section>
